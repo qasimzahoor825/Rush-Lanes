@@ -28,7 +28,7 @@ namespace RushLanes.EditorTools
                 PlayerSettings.SetIconsForTargetGroup(BuildTargetGroup.Android, new[] { icon });
             }
 
-            const string path = "Assets/Scenes/Main.unity";
+            const string path = "Assets/Scenes/MainScene.unity";
             if (System.IO.File.Exists(path))
                 EditorBuildSettings.scenes = new[] { new EditorBuildSettingsScene(path, true) };
 
